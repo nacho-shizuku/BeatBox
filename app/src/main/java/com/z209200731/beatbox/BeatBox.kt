@@ -21,9 +21,20 @@ class BeatBox(private val assets: AssetManager) {
         sounds = loadSounds()
     }
 
+    private var _rate: Float = 1.0f
+    var rate: Float
+        get() = _rate
+        set(value) {
+            _rate = when {
+                value < 0.5f -> 0.5f
+                2.0f < value -> 2.0f
+                else -> value
+            }
+        }
+
     fun play(sound: Sound) {
         sound.soundId?.let {
-            soundPool.play(it, 1.0f, 1.0f, 1, 0, 1.0f)
+            soundPool.play(it, 1.0f, 1.0f, 1, 0, rate)
         }
     }
 

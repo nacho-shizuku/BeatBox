@@ -7,8 +7,12 @@
         <entry key="..\:/Users/shizuku/AndroidStudioProjects/BeatBox/app/src/main/res/layout/fragment_beat_box.xml" value="0.12132725430597771" />
         <entry key="..\:/Users/shizuku/AndroidStudioProjects/BeatBox/app/src/main/res/layout/list_item_sound.xml" value="0.1793478260869565" />
         <entry key="..\:/workspace/AndroidStudioProjects/BeatBox/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.159375" />
+        <entry key="..\:/workspace/AndroidStudioProjects/BeatBox/app/src/main/res/drawable/button_beat_box.xml" value="0.21851851851851853" />
+        <entry key="..\:/workspace/AndroidStudioProjects/BeatBox/app/src/main/res/drawable/button_beat_box_normal.xml" value="0.21666666666666667" />
+        <entry key="..\:/workspace/AndroidStudioProjects/BeatBox/app/src/main/res/drawable/button_beat_box_pressed.xml" value="0.21666666666666667" />
         <entry key="..\:/workspace/AndroidStudioProjects/BeatBox/app/src/main/res/drawable/ic_launcher_background.xml" value="0.159375" />
-        <entry key="..\:/workspace/AndroidStudioProjects/BeatBox/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/workspace/AndroidStudioProjects/BeatBox/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/workspace/AndroidStudioProjects/BeatBox/app/src/main/res/layout/button_beat_box_normal.xml" value="0.2427536231884058" />
         <entry key="..\:/workspace/AndroidStudioProjects/BeatBox/app/src/main/res/layout/list_item_sound.xml" value="0.1" />
         <entry key="..\:/workspace/AndroidStudioProjects/BeatBox/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.159375" />
       </map>
@@ -19,5 +23,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>

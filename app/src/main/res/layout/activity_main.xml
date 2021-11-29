@@ -1,8 +1,33 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <androidx.recyclerview.widget.RecyclerView
+    <data>
 
-        android:id="@+id/recycler_view"
+        <variable
+            name="viewModel"
+            type="com.z209200731.beatbox.BeatBoxViewModel" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/sound_view_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="90"/>
+
+        <SeekBar
+            android:id="@+id/seekbar_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="10"
+            android:max="@{viewModel.max}"
+            android:progress="@={viewModel.rate}"/>
+
+
+    </LinearLayout>
 </layout>

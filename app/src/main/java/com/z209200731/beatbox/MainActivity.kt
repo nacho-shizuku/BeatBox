@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
                 this,
                 R.layout.activity_main
             )
+        binding.viewModel = BeatBoxViewModel(beatBox)
 
         binding.recyclerView.apply {
             layoutManager = GridLayoutManager(context, 3)
